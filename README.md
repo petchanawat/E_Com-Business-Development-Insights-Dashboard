@@ -1,6 +1,7 @@
 # E-Commerce Business Development Insights Dashboard
 ### Overview
-![image](https://github.com/user-attachments/assets/9348755b-2f3a-4442-b21a-1248a06a1c59)
+![image](https://github.com/user-attachments/assets/f2ff912a-ce8c-4abb-b6d9-430ed2f14cf8)
+
 
 In the highly competitive e-commerce market, companies must align strategies from top management to employees handling routine tasks to achieve key goals like cost optimization, sales growth, and enhanced customer satisfaction.
 
