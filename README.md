@@ -18,3 +18,4 @@ Business Intelligence dashboards are essential tools to unify efforts by providi
 | smoker      | Smoking status of the individual (yes/no) | object |
 | region      | Residential area of the beneficiary in the US: northeast, southeast, southwest, or northwest | object |
 | charges     | Medical costs billed to the individual by health insurance | float64 |
+Dataset source: [Kaggle Dataset: E-commerce website sales data]([https://www.kaggle.com/datasets/mirichoi0218/insurance/data](https://www.kaggle.com/datasets/sivm205/e-commerce-website-sales-data)).
