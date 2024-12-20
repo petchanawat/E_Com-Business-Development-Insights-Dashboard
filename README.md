@@ -8,12 +8,23 @@ Business Intelligence dashboards are essential tools to unify efforts by providi
 
 ### Project Objectives
 	
-  1. Analyze overview of sales and profitability across different areas of focus and tailor strategies to increase revenue
-  2. Optimize shipping costs and delivery lead time that committed with customer by analyzing shipping mode, order priority, and location to recommend optimal shipping strategies to suit with each product
-  3. Evaluate the impact of discounts on sales, profitability, attraction to new customers, and units of product sold to refine discounting strategies
-  4. Identify market, region, and country with high sales potential  and profit margin by anayzing  performance across area and understand %sales growth month by month and sales by sub-categories
-  5. Analyze product performance to identify best-seller, optimize inventory, and phase out low-performing products and understand %units sold growth month by month
-  6. Identify high-value customers, new customers, and order rate by year each customer based on sales, profit, number of sales order and %customers growth month by month to create tailord retention strategies
+#### 1. Analyze Sales and Profitability
+Provide an overview of sales and profitability across key focus areas to develop strategies that increase revenue.
+
+#### 2. Optimize Shipping Efficiency
+Reduce shipping costs and delivery lead times by analyzing shipping modes, order priorities, and locations. Recommend tailored shipping strategies for different products.
+
+#### 3. Refine Discount Strategies
+Assess the impact of discounts on sales, profitability, customer acquisition, and product units sold to improve discounting policies.
+
+#### 4. Identify High-Potential Markets
+Highlight markets, regions, and countries with high sales potential and profit margins. Analyze performance trends, monthly sales growth, and sub-category contributions.
+
+#### 5. Improve Product Performance
+Identify best-selling products, optimize inventory, and phase out low-performing items. Track monthly growth in units sold to enhance inventory management.
+
+#### 6. Focus on High-Value Customers
+Analyze high-value and new customers, order rates, and annual customer trends based on sales, profit, and order counts. Monitor monthly customer growth percentages to create targeted retention strategies.
 
 
 ### Dataset Description
