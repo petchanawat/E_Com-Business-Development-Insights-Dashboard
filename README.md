@@ -9,7 +9,7 @@ Business Intelligence dashboards are essential tools to unify efforts by providi
 ### Project Objectives
 	
 #### 1. Analyze Sales and Profitability
-Provide an overview of sales and profitability across key focus areas to develop strategies that increase revenue.
+<p>Provide an overview of sales and profitability across key focus areas to develop strategies that increase revenue.</p>[
 
 #### 2. Optimize Shipping Efficiency
 Reduce shipping costs and delivery lead times by analyzing shipping modes, order priorities, and locations. Recommend tailored shipping strategies for different products.
