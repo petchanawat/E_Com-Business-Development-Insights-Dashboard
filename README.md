@@ -9,32 +9,32 @@ Business Intelligence dashboards are essential tools to unify efforts by providi
 
 ### Dataset Description
 
-| Column Name        | Description           | Type     |
-|--------------------|-----------------------|----------|
-| row_id            | ID of the row in this dataset (e.g. 48910, 48911) | INTEGER  |
-| order_id          | ID of the sales order in this dataset (e.g. SL-2014-420, SL-2011-6640)    | STRING   |
-| order_date        | Date that customer purchase order (e.g. 2011-01-01, 2014-12-12)    | DATE     |
-| ship_date         | Date that customer receive goods from purchased order (e.g. 2011-01-01, 2014-12-12)   | DATE     |
-| ship_mode         | Shipping mode for delivreing goods to customer (e.g. First Class, Same Day)    | STRING   |
-| customer_id       | ID of the customer that generated when registerd (e.g. MH-8115, SW-10350)    | STRING   |
-| customer_name     | Customer name that registered in system (e.g. Mick Hernandez, Sally Hughsby) | STRING   |
-| segment           | Customer segment (e.g. Consumer, Corporate)    | STRING   |
-| city              | Customer city (e.g. Zurich, )    | STRING   |
-| state             | [Add description]    | STRING   |
-| country           | [Add description]    | STRING   |
-| market            | [Add description]    | STRING   |
-| postal_code       | [Add description]    | INTEGER  |
-| region            | [Add description]    | STRING   |
-| product_id        | [Add description]    | STRING   |
-| category          | [Add description]    | STRING   |
-| sub_category      | [Add description]    | STRING   |
-| product_name      | [Add description]    | STRING   |
-| sales             | [Add description]    | FLOAT    |
-| quantity          | [Add description]    | INTEGER  |
-| percent_discount  | [Add description]    | FLOAT    |
-| shipping_cost     | [Add description]    | FLOAT    |
-| profit            | [Add description]    | FLOAT    |
-| order_priority    | [Add description]    | STRING   |
+| Column Name        | Description                           | Example               | Type     |
+|--------------------|---------------------------------------|-----------------------|----------|
+| row_id             | ID of the row in the dataset          | 48910, 48911          | INTEGER  |
+| order_id           | ID of the sales order                 | SL-2014-420, SL-2011-6640 | STRING   |
+| order_date         | Date the order was placed             | 2011-01-01, 2014-12-12 | DATE     |
+| ship_date          | Date the goods were shipped           | 2011-01-01, 2014-12-12 | DATE     |
+| ship_mode          | Mode of shipping                      | First Class, Same Day | STRING   |
+| customer_id        | Unique ID of the customer             | MH-8115, SW-10350     | STRING   |
+| customer_name      | Name of the customer                  | Mick Hernandez, Sally Hughsby | STRING   |
+| segment            | Customer segment                     | Consumer, Corporate   | STRING   |
+| city               | City of the customer                  | Zurich, Aksaray       | STRING   |
+| state              | State of the customer                 | West Virginia, Wales  | STRING   |
+| country            | Country of the customer               | Thailand, Belgium     | STRING   |
+| market             | Customer's market                    | APAC, EU              | STRING   |
+| postal_code        | Postal code of the customer           | 7960, 8302           | INTEGER  |
+| region             | Region of the customer                | Southeast Asia, Africa | STRING   |
+| product_id         | Unique ID of the product              | FUR-ADV-10001440, FUR-ADV-10001659 | STRING   |
+| category           | Category of the product               | Office Supplies, Furniture | STRING   |
+| sub_category       | Sub-category of the product           | Copiers, Phones       | STRING   |
+| product_name       | Name of the product                   | DIXON Oriole Pencils  | STRING   |
+| sales              | Revenue from the order                | 22638.48, 10499.97   | FLOAT    |
+| quantity           | Quantity of units sold                | 3, 7                 | INTEGER  |
+| percent_discount   | Discount percentage applied           | 0.4, 0.8             | FLOAT    |
+| shipping_cost      | Cost of shipping                      | 644.75, 725.34       | FLOAT    |
+| profit             | Profit from the order                 | 2461.32, 4946.37     | FLOAT    |
+| order_priority     | Priority level of the order           | Low, Critical         | STRING   |
 
-24 Columns x 51,290 Rows
+24 Columns x 51,290 Rows from
 Dataset source: [Kaggle Dataset: E-commerce website sales data](https://www.kaggle.com/datasets/sivm205/e-commerce-website-sales-data).
