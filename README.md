@@ -7,12 +7,13 @@ In the highly competitive e-commerce market, companies must align strategies fro
 Business Intelligence dashboards are essential tools to unify efforts by providing real-time, dynamic KPI tracking and performance insights. These dashboards help identify gaps and opportunities for improvement and growth, as demonstrated in this project.
 
 ### Project Objectives
-	#### 1. Analyze overview of sales and profitability across different areas of focus and tailor strategies to increase revenue
-	#### 2. Optimize shipping costs and delivery lead time that committed with customer by analyzing shipping mode, order priority, and location to recommend optimal shipping strategies to suit with each product
-  #### 3. Evaluate the impact of discounts on sales, profitability, attraction to new customers, and units of product sold to refine discounting strategies
-  #### 4. Identify market, region, and country with high sales potential  and profit margin by anayzing  performance across area and understand %sales growth month by month and sales by sub-categories
-  #### 5. Analyze product performance to identify best-seller, optimize inventory, and phase out low-performing products and understand %units sold growth month by month
-  #### 6. Identify high-value customers, new customers, and order rate by year each customer based on sales, profit, number of sales order and %customers growth month by month to create tailord retention strategies
+	
+  ##### 1. Analyze overview of sales and profitability across different areas of focus and tailor strategies to increase revenue
+  ##### 2. Optimize shipping costs and delivery lead time that committed with customer by analyzing shipping mode, order priority, and location to recommend optimal shipping strategies to suit with each product
+  ##### 3. Evaluate the impact of discounts on sales, profitability, attraction to new customers, and units of product sold to refine discounting strategies
+  ##### 4. Identify market, region, and country with high sales potential  and profit margin by anayzing  performance across area and understand %sales growth month by month and sales by sub-categories
+  ##### 5. Analyze product performance to identify best-seller, optimize inventory, and phase out low-performing products and understand %units sold growth month by month
+  ##### 6. Identify high-value customers, new customers, and order rate by year each customer based on sales, profit, number of sales order and %customers growth month by month to create tailord retention strategies
 
 
 ### Dataset Description
