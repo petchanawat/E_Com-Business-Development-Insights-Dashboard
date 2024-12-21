@@ -76,7 +76,7 @@ Use SQL to summarize numerical columns and describe categorical data. Create vie
 [SQL Querying Script](https://github.com/petchanawat/E_Com-Business-Development-Insights-Dashboard/blob/main/SQL%20Querying%20Script.sql)
 
 ```sql
--- Discount Metrics (Example)
+-- Discount Metrics (Sample)
   CASE
     WHEN main.percent_discount > 0 THEN 1
     ELSE 0
