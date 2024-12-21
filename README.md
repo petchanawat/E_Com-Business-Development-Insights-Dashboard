@@ -90,7 +90,7 @@ Use SQL to summarize numerical columns and describe categorical data. Create vie
 ```
 
 #### 3. Data Modeling
-Define essential columns and measures using DAX (Data Analysis Expressions) to enable in-depth analysis and meaningful visualizations. Organize and manipulate data in Power BI's Data view to ensure accuracy and alignment with reporting requirements. [DAX Script](https://github.com/petchanawat/E_Com-Business-Development-Insights-Dashboard/blob/main/DAX%20Script.dax)
+Define essential columns and measures using DAX (Data Analysis Expressions) to enable in-depth analysis and meaningful visualizations. Organize and manipulate data in Power BI's Data view to ensure accuracy and alignment with reporting requirements. [Column DAX Script](https://github.com/petchanawat/E_Com-Business-Development-Insights-Dashboard/blob/main/DAX%20Script.dax) and [Measure DAX Script](https://github.com/petchanawat/E_Com-Business-Development-Insights-Dashboard/blob/main/Measure%20DAX%20Script) 
 
 
 #### 4. Data Analysis
