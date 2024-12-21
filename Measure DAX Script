@@ -1,0 +1,23 @@
+-- Calculate total sales
+Total Sales = SUM(Sales[Sales Amount])
+
+-- Calculate profit margin
+Profit Margin = DIVIDE(SUM(Sales[Profit]), SUM(Sales[Sales Amount]), 0)
+
+-- Rank customers by sales
+Customer Rank = RANKX(
+    ALL(Customer[Customer Name]),
+    [Total Sales],
+    ,
+    DESC,
+    DENSE
+)
+
+-- Calculate year-over-year sales growth
+YoY Sales Growth = 
+IF(
+    ISBLANK([Total Sales]),
+    BLANK(),
+    ([Total Sales] - CALCULATE([Total Sales], SAMEPERIODLASTYEAR(Dates[Date]))) /
+    CALCULATE([Total Sales], SAMEPERIODLASTYEAR(Dates[Date]))
+)
