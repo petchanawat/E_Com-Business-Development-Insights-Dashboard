@@ -1,23 +1,36 @@
--- Calculate total sales
-Total Sales = SUM(Sales[Sales Amount])
-
--- Calculate profit margin
-Profit Margin = DIVIDE(SUM(Sales[Profit]), SUM(Sales[Sales Amount]), 0)
-
--- Rank customers by sales
-Customer Rank = RANKX(
-    ALL(Customer[Customer Name]),
-    [Total Sales],
-    ,
-    DESC,
-    DENSE
+-- Convert month number to month name
+order_month_name = 
+SWITCH(
+    TRUE(),
+    'e_commerce_data_bi_dashboard'[order_month] = 1, "Jan",
+    'e_commerce_data_bi_dashboard'[order_month] = 2, "Feb",
+    'e_commerce_data_bi_dashboard'[order_month] = 3, "Mar",
+    'e_commerce_data_bi_dashboard'[order_month] = 4, "Apr",
+    'e_commerce_data_bi_dashboard'[order_month] = 5, "May",
+    'e_commerce_data_bi_dashboard'[order_month] = 6, "Jun",
+    'e_commerce_data_bi_dashboard'[order_month] = 7, "Jul",
+    'e_commerce_data_bi_dashboard'[order_month] = 8, "Aug",
+    'e_commerce_data_bi_dashboard'[order_month] = 9, "Sep",
+    'e_commerce_data_bi_dashboard'[order_month] = 10, "Oct",
+    'e_commerce_data_bi_dashboard'[order_month] = 11, "Nov",
+    'e_commerce_data_bi_dashboard'[order_month] = 12, "Dec",
+    BLANK() -- Return BLANK for any unexpected values
 )
 
--- Calculate year-over-year sales growth
-YoY Sales Growth = 
+-- Define order is ontime or not
+ontime_or_not =  
 IF(
-    ISBLANK([Total Sales]),
-    BLANK(),
-    ([Total Sales] - CALCULATE([Total Sales], SAMEPERIODLASTYEAR(Dates[Date]))) /
-    CALCULATE([Total Sales], SAMEPERIODLASTYEAR(Dates[Date]))
+    ISBLANK(e_commerce_data_bi_dashboard[leadtime_expected]),
+    BLANK(), -- Handle cases where leadtime_expected is not available
+    IF(
+        e_commerce_data_bi_dashboard[logistics_leadtime] <= e_commerce_data_bi_dashboard[leadtime_expected],
+        "On-Time",
+        "Late"
+    )
 )
+
+-- Convert discount from float format to string format (e.g. 80.0%) 
+discount_percentage = FORMAT(e_commerce_data_bi_dashboard[percent_discount_percent]/100, "0.0%")
+
+
+
