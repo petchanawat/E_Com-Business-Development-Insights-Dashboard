@@ -76,7 +76,17 @@ Use SQL to summarize numerical columns and describe categorical data. Create vie
 [SQL Querying Script](https://github.com/petchanawat/E_Com-Business-Development-Insights-Dashboard/blob/main/SQL%20Querying%20Script.sql)
 
 ```sql
-select
+-- Discount Metrics (Example)
+  CASE
+    WHEN main.percent_discount > 0 THEN 1
+    ELSE 0
+  END AS have_discount, -- 1 means order was applied discount but 0 means no discount applied
+  CASE
+    WHEN main.percent_discount > 0 THEN 'Discounted Order'
+    ELSE 'None-Discounted Order'
+  END AS have_discount_name, -- Name the category of discount to Discounted Order, None-Discounted Order
+  ROUND(main.percent_discount * 100, 1) AS percent_discount_percent, -- Turn discountlike 0.2 (20%) to 20 that will use like category column 
+  main.percent_discount * main.sales AS discount_amount -- Discount amount that subsidize the price that customers have to pay
 ```
 
 #### 3. Data Modeling
