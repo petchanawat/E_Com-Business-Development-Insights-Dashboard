@@ -1,23 +1,76 @@
--- Calculate total sales
-Total Sales = SUM(Sales[Sales Amount])
+-- Average Order Value
+AOV = DIVIDE(SUM(e_commerce_data_bi_dashboard[sales]), COUNT(e_commerce_data_bi_dashboard[order_id]))
 
--- Calculate profit margin
-Profit Margin = DIVIDE(SUM(Sales[Profit]), SUM(Sales[Sales Amount]), 0)
-
--- Rank customers by sales
-Customer Rank = RANKX(
-    ALL(Customer[Customer Name]),
-    [Total Sales],
-    ,
-    DESC,
-    DENSE
+-- % On-time orders compare with all orders
+on_time_rate = 
+DIVIDE(
+    CALCULATE(COUNT(e_commerce_data_bi_dashboard[order_id]),e_commerce_data_bi_dashboard[ontime] = "On-Time"),
+    COUNT(e_commerce_data_bi_dashboard[order_id])
 )
 
--- Calculate year-over-year sales growth
-YoY Sales Growth = 
-IF(
-    ISBLANK([Total Sales]),
-    BLANK(),
-    ([Total Sales] - CALCULATE([Total Sales], SAMEPERIODLASTYEAR(Dates[Date]))) /
-    CALCULATE([Total Sales], SAMEPERIODLASTYEAR(Dates[Date]))
+-- % Delay orders compare with all orders
+percent_delay = DIVIDE(SUM(e_commerce_data_bi_dashboard[late_or_not]), COUNT(e_commerce_data_bi_dashboard[order_id]))
+
+-- % On-time orders compare with all orderes
+percent_ontime = 1-DIVIDE(SUM(e_commerce_data_bi_dashboard[late_or_not]), COUNT(e_commerce_data_bi_dashboard[order_id]))
+
+-- Number of discount type
+total_discount = 
+CALCULATE(
+    DISTINCTCOUNT(e_commerce_data_bi_dashboard[discount_percentage]),
+    e_commerce_data_bi_dashboard[discount_percentage] <> "0.0%"
 )
+
+-- % Order that applied discount compare with all orders
+attachment_rate = DIVIDE(SUM(e_commerce_data_bi_dashboard[have_discount]), COUNT(e_commerce_data_bi_dashboard[order_id]))
+
+-- Revenue from discounted orders
+revenue_discounted = 
+CALCULATE(
+    SUM(e_commerce_data_bi_dashboard[sales]),
+    e_commerce_data_bi_dashboard[have_discount] = 1
+)
+
+-- Cost that platform pays for discount to customer
+amount_discounted = 
+CALCULATE(
+    SUM(e_commerce_data_bi_dashboard[discount_amount]),
+    e_commerce_data_bi_dashboard[have_discount] = 1
+)
+
+-- Average order value from only discounted orders
+AOV_discount = 
+CALCULATE(
+    DIVIDE(SUM(e_commerce_data_bi_dashboard[sales]), SUM(e_commerce_data_bi_dashboard[have_discount])),
+    e_commerce_data_bi_dashboard[have_discount] = 1
+)
+
+-- AVG Cost that platform pays for each discounted order
+AOV_discount_dis = 
+CALCULATE(
+    DIVIDE(SUM(e_commerce_data_bi_dashboard[discount_amount]), SUM(e_commerce_data_bi_dashboard[have_discount])),
+    e_commerce_data_bi_dashboard[have_discount] = 1
+)
+
+-- Number of new customer that be attracted by discount
+new_customers_discount = 
+CALCULATE(
+    DISTINCTCOUNT(e_commerce_data_bi_dashboard[customer_id]),
+    FILTER(
+        e_commerce_data_bi_dashboard,
+        e_commerce_data_bi_dashboard[first_purchase_with_discount] = 1
+    )
+)
+
+-- Product units sold from discounted orders
+quantity_discounted = 
+CALCULATE(
+    SUM(e_commerce_data_bi_dashboard[quantity]),
+    e_commerce_data_bi_dashboard[have_discount] = 1
+)
+
+-- 
+
+
+
+
