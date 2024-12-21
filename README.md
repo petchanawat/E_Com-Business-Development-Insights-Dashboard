@@ -75,6 +75,10 @@ Create a dataset in Google Cloud BigQuery and upload the data in CSV format. Rev
 Use SQL to summarize numerical columns and describe categorical data. Create views to manage and organize essential columns for data modeling, ensuring a streamlined and simplified structure for Business Intelligence tools.
 [SQL Querying Script](https://github.com/petchanawat/E_Com-Business-Development-Insights-Dashboard/blob/main/SQL%20Querying%20Script.sql)
 
+```sql
+select
+```
+
 #### 3. Data Modeling
 
 
