@@ -69,7 +69,125 @@ CALCULATE(
     e_commerce_data_bi_dashboard[have_discount] = 1
 )
 
--- 
+-- % Product units sold from discounted orders compare with all orders
+quantity_discounted_ratio = 
+DIVIDE(
+    CALCULATE(
+        SUM(e_commerce_data_bi_dashboard[quantity]),
+        e_commerce_data_bi_dashboard[have_discount] = 1
+    ),
+    SUM(e_commerce_data_bi_dashboard[quantity]),
+    0
+)
+
+-- Revenue from new customers that applied discount in first purchase
+sales_first_purchase_with_discount = 
+CALCULATE(
+    SUM(e_commerce_data_bi_dashboard[sales]),
+    e_commerce_data_bi_dashboard[First_Purchase_With_Discount] = 1
+)
+
+-- % Profit margin
+profit_margin = DIVIDE(SUM(e_commerce_data_bi_dashboard[profit]), SUM(e_commerce_data_bi_dashboard[sales]))
+
+-- % Monthly growth for sales
+MoM = 
+DIVIDE(
+    [sales_by_month]-[previous_month_sales],
+    [previous_month_sales])
+
+-- Monthly sales
+sales_by_month = 
+SUM(e_commerce_data_bi_dashboard[sales])
+
+-- Previous monthly sales
+previous_month_sales = 
+VAR PrevMonthSales = 
+    CALCULATE(
+        [sales_by_month],
+        DATEADD(e_commerce_data_bi_dashboard[order_date].[Date], -1, MONTH)
+    )
+RETURN
+    IF(
+        ISBLANK(PrevMonthSales),
+        [sales_by_month],  -- Use current month's sales if previous month is blank
+        PrevMonthSales
+    )
+
+-- Monthly product units sold
+quantity_by_month = SUM(e_commerce_data_bi_dashboard[quantity])
+
+-- Previous monthly product units sold
+previous_month_quans = 
+VAR PrevMonthquans = 
+    CALCULATE(
+        [quantity_by_month],
+        DATEADD(e_commerce_data_bi_dashboard[order_date].[Date], -1, MONTH)
+    )
+RETURN
+    IF(
+        ISBLANK(PrevMonthquans),
+        [quantity_by_month],  -- Use current month's sales if previous month is blank
+        PrevMonthquans
+    )
+
+-- % Monthly growth for product units sold
+MoM_quans = 
+DIVIDE(
+    [quantity_by_month]-[previous_month_quans],
+    [previous_month_quans])
+
+-- AVG revenue for each customer
+avg_sales_by_customer = DIVIDE(SUM(e_commerce_data_bi_dashboard[sales]), DISTINCTCOUNT(e_commerce_data_bi_dashboard[customer_id]))
+
+-- Number of old customers for each month 
+all_customer by month = DISTINCTCOUNT(e_commerce_data_bi_dashboard[customer_id])-[first_purchase_by_month]
+
+-- Number of new customers for each month
+first_purchase_by_month = 
+CALCULATE(
+    DISTINCTCOUNT(e_commerce_data_bi_dashboard[customer_id]),
+    FILTER(
+        e_commerce_data_bi_dashboard,
+        e_commerce_data_bi_dashboard[order_date] = e_commerce_data_bi_dashboard[first_purchase_date]
+    )
+)
+
+-- Order rate for year by each customer
+Order_Per_Day_Customer = 
+VAR SelectedYears = COUNTROWS(VALUES(e_commerce_data_bi_dashboard[order_year])) -- Count selected years dynamically
+VAR DaysInYear = 365
+VAR TotalDays = SelectedYears * DaysInYear
+RETURN 
+    DIVIDE(
+        COUNT(e_commerce_data_bi_dashboard[order_id]),
+        TotalDays,
+        0 -- Handle division by zero
+    )
+
+-- Number of customers by month
+customers_by_month = DISTINCTCOUNT(e_commerce_data_bi_dashboard[customer_id])
+
+-- Previous number of customers by month
+previous_month_customers = 
+VAR PrevMonthCustomers = 
+    CALCULATE(
+        [customers_by_month],
+        DATEADD(e_commerce_data_bi_dashboard[order_date].[Date], -1, MONTH)
+    )
+RETURN
+    IF(
+        ISBLANK(PrevMonthCustomers),
+        [customers_by_month],  -- Use current month's sales if previous month is blank
+        PrevMonthCustomers
+    )
+
+-- % Monthly growth for number of customers
+MoM_customers = 
+DIVIDE(
+    [customers_by_month]-[previous_month_customers],
+    [previous_month_customers])
+
 
 
 
