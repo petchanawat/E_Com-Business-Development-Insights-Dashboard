@@ -66,3 +66,23 @@ Dataset source: [Kaggle Dataset: E-commerce website sales data](https://www.kagg
 ![Flowchart (1)](https://github.com/user-attachments/assets/2d6771cb-897a-43ba-8186-30291cb2580f)
 *The data analysis processes workflow diagram*
 
+
+
+#### 1. Upload Data to Serverless Data Warehouse
+Create a dataset in Google Cloud BigQuery and upload the data in CSV format. Review the schema, details, and preview the data to understand its structure and key attributes before starting analysis.
+
+#### 2. Data Querying using SQL
+Use SQL to summarize numerical columns and describe categorical data. Create views to manage and organize essential columns for data modeling, ensuring a streamlined and simplified structure for Business Intelligence tools.
+[SQL Querying Script](https://google.co.th)
+
+#### 3. Data Modeling
+
+
+#### 4. Data Analysis
+
+
+#### 5. Data Visualization
+
+
+#### 6. Findings & Insights Report
+
