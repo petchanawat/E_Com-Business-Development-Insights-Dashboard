@@ -61,5 +61,7 @@ Dataset source: [Kaggle Dataset: E-commerce website sales data](https://www.kagg
 
 
 ### Data Analysis Processes
-![Flowchart](https://github.com/user-attachments/assets/8cfdb95e-5a14-4fec-b489-4893db428846)
+
+
+![Flowchart (1)](https://github.com/user-attachments/assets/2d6771cb-897a-43ba-8186-30291cb2580f)
 
