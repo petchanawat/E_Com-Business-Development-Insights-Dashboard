@@ -92,6 +92,17 @@ Use SQL to summarize numerical columns and describe categorical data. Create vie
 #### 3. Data Modeling
 Define essential columns and measures using DAX (Data Analysis Expressions) to enable in-depth analysis and meaningful visualizations. Organize and manipulate data in Power BI's Data view to ensure accuracy and alignment with reporting requirements. [Column DAX Script](https://github.com/petchanawat/E_Com-Business-Development-Insights-Dashboard/blob/main/Column%20DAX%20Script.dax) and [Measure DAX Script](https://github.com/petchanawat/E_Com-Business-Development-Insights-Dashboard/blob/main/Measure%20DAX%20Script.dax) 
 
+```dax
+-- Number of new customer that be attracted by discount (Sample)
+new_customers_discount = 
+CALCULATE(
+    DISTINCTCOUNT(e_commerce_data_bi_dashboard[customer_id]),
+    FILTER(
+        e_commerce_data_bi_dashboard,
+        e_commerce_data_bi_dashboard[first_purchase_with_discount] = 1
+    )
+)
+```
 
 #### 4. Data Analysis
 
