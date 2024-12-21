@@ -58,3 +58,8 @@ Analyze high-value and new customers, order rates, and annual customer trends ba
 
 24 Columns x 51,290 Rows from
 Dataset source: [Kaggle Dataset: E-commerce website sales data](https://www.kaggle.com/datasets/sivm205/e-commerce-website-sales-data).
+
+
+### Data Analysis Processes
+![Flowchart](https://github.com/user-attachments/assets/8cfdb95e-5a14-4fec-b489-4893db428846)
+
