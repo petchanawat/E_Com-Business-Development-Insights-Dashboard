@@ -91,7 +91,7 @@ Use SQL to summarize numerical columns and describe categorical data. Create vie
 
 #### 3. Data Modeling
 
-[SQL Querying Script](https://github.com/petchanawat/E_Com-Business-Development-Insights-Dashboard/blob/main/SQL%20Querying%20Script.sql)
+[DAX Script](https://github.com/petchanawat/E_Com-Business-Development-Insights-Dashboard/blob/main/DAX%20Script.dax)
 
 
 #### 4. Data Analysis
