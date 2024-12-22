@@ -172,10 +172,16 @@ Low-Performing Items: Recommended phasing out underperforming products or reposi
 The project successfully leveraged data analytics and visualization to provide actionable insights into the e-commerce business. By addressing key challenges in sales, profitability, shipping efficiency, and customer engagement, the dashboards created will enable decision-makers to make informed, data-driven choices.
 
 #### Next Steps
+
 Enhance Discount Strategies: Develop models to determine optimal discount rates balancing sales growth and profitability.
+
 Optimize Shipping Logistics: Partner with logistics providers to improve shipping efficiency in high-delay regions.
+
 Focus on Customer Retention: Design loyalty programs targeting high-value customers and incentives for new customer retention.
+
 Expand High-Potential Markets: Allocate resources to expand in emerging markets with high sales potential.
+
 Streamline Inventory: Implement dynamic inventory management systems to prioritize best-sellers and reduce overstocking of low-performing items.
+
 By implementing these strategies, the business can align operations with long-term objectives, driving sustainable growth and competitive advantage
 
