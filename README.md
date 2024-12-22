@@ -127,8 +127,7 @@ Dive deeper into business challenges by using fast and interactive Power BI visu
 ##### 5.1 Create Interactive Dashboards
 Design dynamic dashboards in Power BI that allow users to interact with the data seamlessly. Focus on creating visuals that are user-friendly and easy to navigate.
 ![powerbi_20241223_page-0002](https://github.com/user-attachments/assets/2e9e277f-3d97-4e5c-9c36-0447e574bf65)
-
-
+*The Logistics dashboard, one of the six dashboard*
 
 ##### 5.2 Align Dashboards with Objectives
 Ensure dashboards are tailored to meet project objectives, providing clear insights into sales growth, profitability, shipping efficiency, and customer trends.
