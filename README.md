@@ -106,6 +106,22 @@ CALCULATE(
 
 #### 4. Data Analysis
 
+##### 4.1 Define Yearly Targets
+Utilize historical data to set clear annual targets focused on sales growth, profitability, and business expansion. Understand the target audience and market opportunities to identify new growth paths, form partnerships, and add value to the company.
+
+##### 4.2 Analyze Key Business Problems
+Examine data to address specific challenges, uncovering root causes and formulating solutions. Focus on solving issues related to sales, profitability, shipping efficiency, and customer retention.
+
+##### 4.3 Identify New Opportunities
+Highlight areas for growth by analyzing emerging trends, market gaps, and untapped segments. Emphasize opportunities that align with the company's long-term goals.
+
+##### 4.4 Evaluate KPIs and Targets
+Break down data by key performance indicators (KPIs) such as sales revenue, profit margins, and customer acquisition metrics. Align analysis with strategic objectives and track progress against defined targets.
+
+##### 4.5 Root Cause Analysis with Visualizations
+Dive deeper into business challenges by using fast and interactive Power BI visualizations. This approach helps uncover trends, outliers, and patterns, enabling actionable insights.
+
+
 
 #### 5. Data Visualization
 
