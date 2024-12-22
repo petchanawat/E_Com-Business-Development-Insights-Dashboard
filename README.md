@@ -122,8 +122,22 @@ Break down data by key performance indicators (KPIs) such as sales revenue, prof
 Dive deeper into business challenges by using fast and interactive Power BI visualizations. This approach helps uncover trends, outliers, and patterns, enabling actionable insights.
 
 
-
 #### 5. Data Visualization
+
+##### 5.1 Create Interactive Dashboards
+Design dynamic dashboards in Power BI that allow users to interact with the data seamlessly. Focus on creating visuals that are user-friendly and easy to navigate.
+
+##### 5.2 Align Dashboards with Objectives
+Ensure dashboards are tailored to meet project objectives, providing clear insights into sales growth, profitability, shipping efficiency, and customer trends.
+
+##### 5.3 Highlight Key Focus Areas
+Present data in a way that highlights critical areas, such as high-potential markets, best-selling products, and high-value customers. Use visuals to emphasize areas requiring action.
+
+##### 5.4 Simplify Data Interpretation
+Use clear, concise visuals to ensure users can quickly understand trends, patterns, and outliers. Avoid overloading dashboards with unnecessary details.
+
+##### 5.5 Drive Fast Decision-Making
+Enable quick decision-making by providing actionable insights through interactive filters, drill-down capabilities, and real-time updates.
 
 
 #### 6. Findings & Insights Report
