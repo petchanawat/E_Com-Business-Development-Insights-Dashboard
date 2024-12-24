@@ -237,9 +237,26 @@ This project uncovered critical insights into the e-commerce business, highlight
     - Enabled the setting of realistic revenue and profit targets for the upcoming year, ensuring alignment between business objectives and execution.
     - Established a monthly tracking system to monitor market performance and support timely decision-making for future growth strategies.
 
-- #####  6.5 Customer Segmentation
-High-Value Customers: A small percentage of customers contributed to a majority of the revenue, emphasizing the importance of loyalty programs.
-Customer Trends: Corporate customers showed consistent growth, suggesting targeted marketing strategies for this segment.
+- ##### 6.5 Product Performance
+
+  * **Situation:** Analyzed product sales data from 2011 to 2014 to assess the performance of different product categories, subcategories, and individual items. The goal was to identify high-performing products and inform business strategies for growth.
+
+  * **Task:** Determine which product categories, subcategories, and specific items are the most popular and generate the highest sales volume. This information would support decisions on inventory management, sales strategies, and promotional activities.
+
+  * **Action:** 
+    - Conducted an analysis to identify:
+      - **Top Product Categories:** Office supplies ranked as the highest in total units sold.
+      - **Top Subcategories:** Binders, storage, and art were the highest in unit sales.
+      - **Top-Selling Products:** Staples, Cardinal Index Tab Clear, and Eldon File Cart (single width) showed the highest sales volume.
+    - Visualized trends:
+      - Monthly trends for total units sold and average logistics lead time.
+      - Monthly breakdown of units sold by category percentage.
+      - A detailed table showing month-over-month changes in product unit sales.
+
+  * **Result:** 
+    - Provided valuable insights that allowed the business to focus on the best-selling products and optimize inventory.
+    - Helped identify areas for improvement in logistics and supply chain operations to reduce lead times.
+    - Established targets and baselines to monitor progress and drive strategic decisions, ensuring alignment with overall business goals.
 
 - ##### 6.6 Product Performance
 Best-Selling Products: Highlighted top-performing products, enabling inventory prioritization.
