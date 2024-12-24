@@ -146,8 +146,25 @@ Enable quick decision-making by providing actionable insights through interactiv
 This project uncovered critical insights into the e-commerce business, highlighting areas for improvement and growth opportunities:
 
 - ##### 6.1 Sales and Profitability
-Revenue Drivers: Identified top-performing regions and product categories contributing significantly to revenue.
-Profitability Trends: Certain high-revenue products were found to have low profit margins, suggesting a need for cost optimization.
+
+  * **Situation:** Analyzed sales and profitability trends from 2011 to 2014 to provide actionable insights for top management. The objective was to set realistic yearly targets and align strategic goals with operational execution across all levels of the organization.
+
+  * **Task:** Identify key revenue and profit drivers, as well as underperforming areas, to assist in setting achievable goals and developing strategies for improvement.
+
+  * **Action:** 
+    - Conducted year-over-year sales growth analysis, revealing an average growth rate of 23.98%.
+    - Identified key performance trends:
+      - **Customer Segments:** Consumers were the top revenue contributors, while the Home Office segment underperformed.
+      - **Product Categories:** Office Supplies drove the highest unit sales, while Copiers, Phones, and Bookcases were the most profitable subcategories.
+      - **Geographies:**
+        - **Top Revenue Countries:** United States, Australia, and France (in descending order).
+        - **Top Revenue States:** England, California, and Île-de-France (in descending order).
+    - Created visual trends for monthly revenue and sales orders to pinpoint seasonality and demand fluctuations.
+
+  * **Result:** 
+    - Delivered actionable insights that helped set clear sales and profitability targets for the next year.
+    - Enabled top management to establish a baseline for monitoring performance and launch strategic interventions when targets are unmet.
+    - Enhanced organizational alignment by connecting top-level strategy with employee-level execution to ensure routine tasks contribute to overarching business goals.
 
 - ##### 6.2 Shipping Efficiency
 Shipping Costs: Orders with higher priority tend to use expensive shipping modes, but not all correlate with customer satisfaction or increased revenue.
