@@ -8,22 +8,22 @@ Business Intelligence dashboards are essential tools to unify efforts by providi
 
 ### Project Objectives
 	
-#### 1. Analyze Sales and Profitability
+- #### 1. Analyze Sales and Profitability
 Provide an overview of sales and profitability across key focus areas to develop strategies that increase revenue.
 
-#### 2. Optimize Shipping Efficiency
+- #### 2. Optimize Shipping Efficiency
 Reduce shipping costs and delivery lead times by analyzing shipping modes, order priorities, and locations. Recommend tailored shipping strategies for different products.
 
-#### 3. Refine Discount Strategies
+- #### 3. Refine Discount Strategies
 Assess the impact of discounts on sales, profitability, customer acquisition, and product units sold to improve discounting policies.
 
-#### 4. Identify High-Potential Markets
+- #### 4. Identify High-Potential Markets
 Highlight markets, regions, and countries with high sales potential and profit margins. Analyze performance trends, monthly sales growth, and sub-category contributions.
 
-#### 5. Improve Product Performance
+- #### 5. Improve Product Performance
 Identify best-selling products, optimize inventory, and phase out low-performing items. Track monthly growth in units sold to enhance inventory management.
 
-#### 6. Focus on High-Value Customers
+- #### 6. Focus on High-Value Customers
 Analyze high-value and new customers, order rates, and annual customer trends based on sales, profit, and order counts. Monitor monthly customer growth percentages to create targeted retention strategies.
 
 
@@ -68,10 +68,10 @@ Dataset source: [Kaggle Dataset: E-commerce website sales data](https://www.kagg
 
 
 
-#### 1. Upload Data to Serverless Data Warehouse
+- #### 1. Upload Data to Serverless Data Warehouse
 Create a dataset in Google Cloud BigQuery and upload the data in CSV format. Review the schema, details, and preview the data to understand its structure and key attributes before starting analysis.
 
-#### 2. Data Querying using SQL
+- #### 2. Data Querying using SQL
 Use SQL to summarize numerical columns and describe categorical data. Create views to manage and organize essential columns for data modeling, ensuring a streamlined and simplified structure for Business Intelligence tools.
 [SQL Querying Script](https://github.com/petchanawat/E_Com-Business-Development-Insights-Dashboard/blob/main/SQL%20Querying%20Script.sql)
 
@@ -89,7 +89,7 @@ Use SQL to summarize numerical columns and describe categorical data. Create vie
   main.percent_discount * main.sales AS discount_amount -- Discount amount that subsidize the price that customers have to pay
 ```
 
-#### 3. Data Modeling
+- #### 3. Data Modeling
 Define essential columns and measures using DAX (Data Analysis Expressions) to enable in-depth analysis and meaningful visualizations. Organize and manipulate data in Power BI's Data view to ensure accuracy and alignment with reporting requirements. [Column DAX Script](https://github.com/petchanawat/E_Com-Business-Development-Insights-Dashboard/blob/main/Column%20DAX%20Script.dax) and [Measure DAX Script](https://github.com/petchanawat/E_Com-Business-Development-Insights-Dashboard/blob/main/Measure%20DAX%20Script.dax) 
 
 ```dax
@@ -104,7 +104,7 @@ CALCULATE(
 )
 ```
 
-#### 4. Data Analysis
+- #### 4. Data Analysis
 
 ##### 4.1 Define Yearly Targets
 Utilize historical data to set clear annual targets focused on sales growth, profitability, and business expansion. Understand the target audience and market opportunities to identify new growth paths, form partnerships, and add value to the company.
@@ -122,7 +122,7 @@ Break down data by key performance indicators (KPIs) such as sales revenue, prof
 Dive deeper into business challenges by using fast and interactive Power BI visualizations. This approach helps uncover trends, outliers, and patterns, enabling actionable insights.
 
 
-#### 5. Data Visualization
+- #### 5. Data Visualization
 
 ##### 5.1 Create Interactive Dashboards
 Design dynamic dashboards in Power BI that allow users to interact with the data seamlessly. Focus on creating visuals that are user-friendly and easy to navigate. [Power BI Dashboard Photos](https://github.com/petchanawat/E_Com-Business-Development-Insights-Dashboard/tree/main/PowerBI%20Dashboard%20Photos)
@@ -142,7 +142,7 @@ Use clear, concise visuals to ensure users can quickly understand trends, patter
 Enable quick decision-making by providing actionable insights through interactive filters, drill-down capabilities, and real-time updates.
 
 
-#### 6. Findings & Insights Report
+- #### 6. Findings & Insights Report
 This project uncovered critical insights into the e-commerce business, highlighting areas for improvement and growth opportunities:
 
 ##### 6.1 Sales and Profitability
@@ -168,10 +168,10 @@ Customer Trends: Corporate customers showed consistent growth, suggesting target
 Best-Selling Products: Highlighted top-performing products, enabling inventory prioritization.
 Low-Performing Items: Recommended phasing out underperforming products or repositioning them with promotional strategies.
 
-#### Summary
+### Summary
 The project successfully leveraged data analytics and visualization to provide actionable insights into the e-commerce business. By addressing key challenges in sales, profitability, shipping efficiency, and customer engagement, the dashboards created will enable decision-makers to make informed, data-driven choices.
 
-#### Next Steps
+### Next Steps
 
 Enhance Discount Strategies: Develop models to determine optimal discount rates balancing sales growth and profitability.
 
