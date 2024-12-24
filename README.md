@@ -1,33 +1,33 @@
 # E-Commerce Business Development Insights Dashboard
-### Overview
+## Overview
 ![image](https://github.com/user-attachments/assets/f2ff912a-ce8c-4abb-b6d9-430ed2f14cf8)
 
 In the highly competitive e-commerce market, companies must align strategies from top management to employees handling routine tasks to achieve key goals like cost optimization, sales growth, and enhanced customer satisfaction.
 
 Business Intelligence dashboards are essential tools to unify efforts by providing real-time, dynamic KPI tracking and performance insights. These dashboards help identify gaps and opportunities for improvement and growth, as demonstrated in this project.
 
-### Project Objectives
+## Project Objectives
 	
-- #### 1. Analyze Sales and Profitability
+- ### 1. Analyze Sales and Profitability
 Provide an overview of sales and profitability across key focus areas to develop strategies that increase revenue.
 
-- #### 2. Optimize Shipping Efficiency
+- ### 2. Optimize Shipping Efficiency
 Reduce shipping costs and delivery lead times by analyzing shipping modes, order priorities, and locations. Recommend tailored shipping strategies for different products.
 
-- #### 3. Refine Discount Strategies
+- ### 3. Refine Discount Strategies
 Assess the impact of discounts on sales, profitability, customer acquisition, and product units sold to improve discounting policies.
 
-- #### 4. Identify High-Potential Markets
+- ### 4. Identify High-Potential Markets
 Highlight markets, regions, and countries with high sales potential and profit margins. Analyze performance trends, monthly sales growth, and sub-category contributions.
 
-- #### 5. Improve Product Performance
+- ### 5. Improve Product Performance
 Identify best-selling products, optimize inventory, and phase out low-performing items. Track monthly growth in units sold to enhance inventory management.
 
-- #### 6. Focus on High-Value Customers
+- ### 6. Focus on High-Value Customers
 Analyze high-value and new customers, order rates, and annual customer trends based on sales, profit, and order counts. Monitor monthly customer growth percentages to create targeted retention strategies.
 
 
-### Dataset Description
+## Dataset Description
 
 | Column Name        | Description                           | Example               | Type     |
 |--------------------|---------------------------------------|-----------------------|----------|
@@ -60,7 +60,7 @@ Analyze high-value and new customers, order rates, and annual customer trends ba
 Dataset source: [Kaggle Dataset: E-commerce website sales data](https://www.kaggle.com/datasets/sivm205/e-commerce-website-sales-data).
 
 
-### Data Analysis Processes
+## Data Analysis Processes
 
 
 ![Flowchart (1)](https://github.com/user-attachments/assets/2d6771cb-897a-43ba-8186-30291cb2580f)
@@ -68,10 +68,10 @@ Dataset source: [Kaggle Dataset: E-commerce website sales data](https://www.kagg
 
 
 
-#### 1. Upload Data to Serverless Data Warehouse
+### 1. Upload Data to Serverless Data Warehouse
 Create a dataset in Google Cloud BigQuery and upload the data in CSV format. Review the schema, details, and preview the data to understand its structure and key attributes before starting analysis.
 
-#### 2. Data Querying using SQL
+### 2. Data Querying using SQL
 Use SQL to summarize numerical columns and describe categorical data. Create views to manage and organize essential columns for data modeling, ensuring a streamlined and simplified structure for Business Intelligence tools.
 [SQL Querying Script](https://github.com/petchanawat/E_Com-Business-Development-Insights-Dashboard/blob/main/SQL%20Querying%20Script.sql)
 
@@ -89,7 +89,7 @@ Use SQL to summarize numerical columns and describe categorical data. Create vie
   main.percent_discount * main.sales AS discount_amount -- Discount amount that subsidize the price that customers have to pay
 ```
 
-#### 3. Data Modeling
+### 3. Data Modeling
 Define essential columns and measures using DAX (Data Analysis Expressions) to enable in-depth analysis and meaningful visualizations. Organize and manipulate data in Power BI's Data view to ensure accuracy and alignment with reporting requirements. [Column DAX Script](https://github.com/petchanawat/E_Com-Business-Development-Insights-Dashboard/blob/main/Column%20DAX%20Script.dax) and [Measure DAX Script](https://github.com/petchanawat/E_Com-Business-Development-Insights-Dashboard/blob/main/Measure%20DAX%20Script.dax) 
 
 ```dax
@@ -104,48 +104,48 @@ CALCULATE(
 )
 ```
 
-#### 4. Data Analysis
+### 4. Data Analysis
 
-- ##### 4.1 Define Yearly Targets
+- #### 4.1 Define Yearly Targets
 Utilize historical data to set clear annual targets focused on sales growth, profitability, and business expansion. Understand the target audience and market opportunities to identify new growth paths, form partnerships, and add value to the company.
 
-- ##### 4.2 Analyze Key Business Problems
+- #### 4.2 Analyze Key Business Problems
 Examine data to address specific challenges, uncovering root causes and formulating solutions. Focus on solving issues related to sales, profitability, shipping efficiency, and customer retention.
 
-- ##### 4.3 Identify New Opportunities
+- #### 4.3 Identify New Opportunities
 Highlight areas for growth by analyzing emerging trends, market gaps, and untapped segments. Emphasize opportunities that align with the company's long-term goals.
 
-- ##### 4.4 Evaluate KPIs and Targets
+- #### 4.4 Evaluate KPIs and Targets
 Break down data by key performance indicators (KPIs) such as sales revenue, profit margins, and customer acquisition metrics. Align analysis with strategic objectives and track progress against defined targets.
 
-- ##### 4.5 Root Cause Analysis with Visualizations
+- #### 4.5 Root Cause Analysis with Visualizations
 Dive deeper into business challenges by using fast and interactive Power BI visualizations. This approach helps uncover trends, outliers, and patterns, enabling actionable insights.
 
 
-#### 5. Data Visualization
+### 5. Data Visualization
 
-- ##### 5.1 Create Interactive Dashboards
+- #### 5.1 Create Interactive Dashboards
 Design dynamic dashboards in Power BI that allow users to interact with the data seamlessly. Focus on creating visuals that are user-friendly and easy to navigate. [Power BI Dashboard Photos](https://github.com/petchanawat/E_Com-Business-Development-Insights-Dashboard/tree/main/PowerBI%20Dashboard%20Photos)
 ![powerbi_20241223_page-0002](https://github.com/user-attachments/assets/2e9e277f-3d97-4e5c-9c36-0447e574bf65)
 *The Logistics dashboard*
 
-- ##### 5.2 Align Dashboards with Objectives
+- #### 5.2 Align Dashboards with Objectives
 Ensure dashboards are tailored to meet project objectives, providing clear insights into sales growth, profitability, shipping efficiency, and customer trends.
 
-- ##### 5.3 Highlight Key Focus Areas
+- #### 5.3 Highlight Key Focus Areas
 Present data in a way that highlights critical areas, such as high-potential markets, best-selling products, and high-value customers. Use visuals to emphasize areas requiring action.
 
-- ##### 5.4 Simplify Data Interpretation
+- #### 5.4 Simplify Data Interpretation
 Use clear, concise visuals to ensure users can quickly understand trends, patterns, and outliers. Avoid overloading dashboards with unnecessary details.
 
-- ##### 5.5 Drive Fast Decision-Making
+- #### 5.5 Drive Fast Decision-Making
 Enable quick decision-making by providing actionable insights through interactive filters, drill-down capabilities, and real-time updates.
 
 
-#### 6. Findings & Insights Report
+### 6. Findings & Insights Report
 This project uncovered critical insights into the e-commerce business, highlighting areas for improvement and growth opportunities:
 
-- ##### 6.1 Sales and Profitability
+- #### 6.1 Sales and Profitability
 
   * **Situation:** Analyzed sales and profitability trends from 2011 to 2014 to provide actionable insights for top management. The objective was to set realistic yearly targets and align strategic goals with operational execution across all levels of the organization.
 
@@ -166,7 +166,7 @@ This project uncovered critical insights into the e-commerce business, highlight
     - Enabled top management to establish a baseline for monitoring performance and launch strategic interventions when targets are unmet.
     - Enhanced organizational alignment by connecting top-level strategy with employee-level execution to ensure routine tasks contribute to overarching business goals.
 
-- ##### 6.2 Shipping Efficiency
+- #### 6.2 Shipping Efficiency
 
   * **Situation:** Evaluated shipping performance data from 2011 to 2014 to address rising inefficiencies and declining on-time delivery rates. The goal was to identify key issues and propose strategies for improvement while aligning goals across the organization.
 
@@ -189,7 +189,7 @@ This project uncovered critical insights into the e-commerce business, highlight
     - Established baselines for tracking progress and aligning operational tasks with strategic objectives.
     - Delivered clarity on improvement opportunities, empowering teams to focus on high-impact changes to enhance shipping reliability.
 
-- ##### 6.3 Discount Strategies
+- #### 6.3 Discount Strategies
 
   * **Situation:** Analyzed discounting trends from 2011 to 2014 to identify key drivers of revenue, customer acquisition, and product sales. The objective was to provide strategic insights on how to optimize discount offers and align them with business goals.
 
@@ -213,7 +213,7 @@ This project uncovered critical insights into the e-commerce business, highlight
     - Created performance benchmarks for monthly tracking, helping management monitor progress towards discount-related goals.
     - Supported the alignment of pricing strategies with business targets, enabling more effective decision-making and resource allocation.
 
-- ##### 6.4 High-Potential Markets
+- #### 6.4 High-Potential Markets
 
   * **Situation:** Conducted an analysis of market performance from 2011 to 2014 to identify high-potential regions and markets that could drive future business growth. The goal was to offer insights to the management team on where to focus efforts to maximize profitability.
 
@@ -237,7 +237,7 @@ This project uncovered critical insights into the e-commerce business, highlight
     - Enabled the setting of realistic revenue and profit targets for the upcoming year, ensuring alignment between business objectives and execution.
     - Established a monthly tracking system to monitor market performance and support timely decision-making for future growth strategies.
 
-- ##### 6.5 Product Performance
+- #### 6.5 Product Performance
 
   * **Situation:** Analyzed product sales data from 2011 to 2014 to assess the performance of different product categories, subcategories, and individual items. The goal was to identify high-performing products and inform business strategies for growth.
 
@@ -258,7 +258,7 @@ This project uncovered critical insights into the e-commerce business, highlight
     - Helped identify areas for improvement in logistics and supply chain operations to reduce lead times.
     - Established targets and baselines to monitor progress and drive strategic decisions, ensuring alignment with overall business goals.
 
-- ##### 6.6 Customer Segmentation
+- #### 6.6 Customer Segmentation
 
   * **Situation:** Analyzed customer growth and revenue patterns from 2011 to 2014 to uncover insights that could drive better customer engagement and retention strategies. The goal was to identify top-performing customers and areas for improvement in customer acquisition and profitability.
 
@@ -280,21 +280,40 @@ This project uncovered critical insights into the e-commerce business, highlight
     - Enabled the business to set clear customer growth targets and align them with operational tasks, driving overall business success.
 
 
-### Summary
-	
-The project successfully leveraged data analytics and visualization to provide actionable insights into the e-commerce business. By addressing key challenges in sales, profitability, shipping efficiency, and customer engagement, the dashboards created will enable decision-makers to make informed, data-driven choices.
+## Summary
 
-### Next Steps
+This project aimed to provide business intelligence insights for e-commerce businesses, enabling data-driven decision-making across multiple areas such as sales, shipping efficiency, product performance, and market potential. The dashboard leverages real-time data to identify gaps, opportunities, and trends that can lead to improved profitability, cost optimization, and customer satisfaction.
 
-- Enhance Discount Strategies: Develop models to determine optimal discount rates balancing sales growth and profitability.
+By analyzing historical sales data and operational performance, the dashboard helps businesses:
+- Optimize shipping strategies and costs
+- Fine-tune discount policies
+- Focus on high-potential markets and customers
+- Track product performance for better inventory management
+- Set clear sales and profitability targets for sustained growth
 
-- Optimize Shipping Logistics: Partner with logistics providers to improve shipping efficiency in high-delay regions.	
+The insights derived from the dashboard serve as a guide for top management, helping them align strategic goals with everyday tasks, driving organizational success from the ground up.
 
-- Focus on Customer Retention: Design loyalty programs targeting high-value customers and incentives for new customer retention.
+## Next Steps
 
-- Expand High-Potential Markets: Allocate resources to expand in emerging markets with high sales potential.
+### 1. Business Development Strategy
+- **Target New Markets:** Use insights into high-potential regions to expand into underserved areas with high profitability.
+- **Enhance Customer Segmentation:** Focus on high-value customers and target retention strategies for them.
+- **Optimize Discounts:** Adjust discount policies to maximize revenue generation while attracting new customers.
 
-- Streamline Inventory: Implement dynamic inventory management systems to prioritize best-sellers and reduce overstocking of low-performing items.
+### 2. Data Analysis & Enhancement
+- **Refine Data Models:** Improve data models with additional variables such as customer feedback, competitor performance, and seasonal trends.
+- **Integrate Real-Time Data:** Enhance dashboards by incorporating real-time data feeds to provide up-to-date insights.
+- **Expand Analytical Coverage:** Include customer behavior analysis, conversion rates, and post-purchase engagement to further refine the business strategy.
 
-- By implementing these strategies, the business can align operations with long-term objectives, driving sustainable growth and competitive advantage
+### 3. Technical Enhancements
+- **Improve Data Automation:** Implement automated processes for data collection and reporting to ensure faster and more accurate decision-making.
+- **Develop Predictive Analytics:** Build predictive models to forecast sales trends, customer behavior, and market shifts.
+- **Enhance User Interface:** Continuously improve dashboard visuals and user experience to ensure decision-makers can access insights easily.
+
+### 4. Stakeholder Engagement
+- **Regular Reporting:** Create monthly reports for key stakeholders to track progress against targets and adjust strategies accordingly.
+- **Cross-Departmental Collaboration:** Facilitate collaboration between marketing, logistics, and sales teams using the dashboard as a central communication tool.
+
+By implementing these next steps, the project will contribute to a more efficient, data-driven decision-making process, driving growth and improving operational efficiency across the business.
+
 
