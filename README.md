@@ -214,8 +214,28 @@ This project uncovered critical insights into the e-commerce business, highlight
     - Supported the alignment of pricing strategies with business targets, enabling more effective decision-making and resource allocation.
 
 - ##### 6.4 High-Potential Markets
-Emerging Markets: Southeast Asia and Eastern Europe showed strong growth potential with relatively low market penetration.
-Seasonal Trends: Identified seasonal peaks in sales for certain product categories, allowing better inventory planning.
+
+  * **Situation:** Conducted an analysis of market performance from 2011 to 2014 to identify high-potential regions and markets that could drive future business growth. The goal was to offer insights to the management team on where to focus efforts to maximize profitability.
+
+  * **Task:** Identify key markets, regions, and countries with the highest revenue generation potential, and determine which areas are underperforming to adjust future business strategies accordingly.
+
+  * **Action:** 
+    - Analyzed market performance data:
+      - **Profit Margin:** Discovered an average profit margin increase of 2.14% year-over-year, providing a baseline for setting future profit targets.
+      - **Revenue Drivers:**
+        - Top revenue-generating markets: APAC, EU, and the US.
+        - Top regions by revenue: Central, South, and North.
+        - Top countries by revenue: United States, Australia, and France.
+    - Visualized key trends:
+      - Monthly revenue and sales order trends.
+      - Monthly profit and sales order trends.
+      - Monthly growth in revenue (month-over-month).
+      - Revenue distribution across product subcategories.
+
+  * **Result:** 
+    - Provided actionable insights into the performance of key markets, helping the management team focus on the most profitable regions and countries.
+    - Enabled the setting of realistic revenue and profit targets for the upcoming year, ensuring alignment between business objectives and execution.
+    - Established a monthly tracking system to monitor market performance and support timely decision-making for future growth strategies.
 
 - #####  6.5 Customer Segmentation
 High-Value Customers: A small percentage of customers contributed to a majority of the revenue, emphasizing the importance of loyalty programs.
