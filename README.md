@@ -167,12 +167,51 @@ This project uncovered critical insights into the e-commerce business, highlight
     - Enhanced organizational alignment by connecting top-level strategy with employee-level execution to ensure routine tasks contribute to overarching business goals.
 
 - ##### 6.2 Shipping Efficiency
-Shipping Costs: Orders with higher priority tend to use expensive shipping modes, but not all correlate with customer satisfaction or increased revenue.
-Delivery Delays: Pinpointed regions with frequent delays, allowing targeted interventions to improve delivery times.
+
+  * **Situation:** Evaluated shipping performance data from 2011 to 2014 to address rising inefficiencies and declining on-time delivery rates. The goal was to identify key issues and propose strategies for improvement while aligning goals across the organization.
+
+  * **Task:** Analyze shipping costs, delivery lead times, and on-time performance to identify areas for optimization and provide actionable insights to improve operational efficiency.
+
+  * **Action:** 
+    - Analyzed key shipping metrics:
+      - Year-over-year shipping cost per order showed a slight decline of -1.053%, with an average lead time of 4 days remaining stable.
+      - On-time delivery rates decreased, requiring recovery to the best year’s performance of 68.25%.
+    - Identified key trends and challenges:
+      - **Shipping Modes:** Standard class accounted for the highest total shipping costs, while same-day delivery had the lowest delay rates, and second-class shipping experienced the most delays.
+      - **Geographies:** Lesotho, Montenegro, and Taiwan had the highest delay percentages.
+      - **Products:** Highlighted products with the highest delay rates, ranked from worst to best.
+    - Visualized trends:
+      - Monthly total shipping costs and on-time percentages by shipping mode using stacked color charts.
+      - Monthly average shipping costs and lead times per order to track performance fluctuations.
+
+  * **Result:** 
+    - Provided actionable insights that enabled top management to set measurable goals for reducing delays and improving efficiency.
+    - Established baselines for tracking progress and aligning operational tasks with strategic objectives.
+    - Delivered clarity on improvement opportunities, empowering teams to focus on high-impact changes to enhance shipping reliability.
 
 - ##### 6.3 Discount Strategies
-Impact of Discounts: Discounts drive short-term sales but negatively affect profit margins. A balance between customer acquisition and profitability is essential.
-New Customer Attraction: Discounts effectively attract new customers but require strategies to convert them into repeat buyers.
+
+  * **Situation:** Analyzed discounting trends from 2011 to 2014 to identify key drivers of revenue, customer acquisition, and product sales. The objective was to provide strategic insights on how to optimize discount offers and align them with business goals.
+
+  * **Task:** Identify which discount strategies contributed most to revenue generation, customer acquisition, and unit sales to refine pricing strategies and boost business performance.
+
+  * **Action:** 
+    - Evaluated discount performance:
+      - **Revenue:** Furniture products generated the highest revenue from discounted orders.
+      - **Discount Types:**
+        - Top revenue-generating discounts: 10%, 20%, and 40%.
+        - Leading discount types for customer acquisition: 20%, 60%, and 70%.
+        - Top discount types driving product sales: 20%, 10%, and 40%.
+    - Created visualizations to track key metrics:
+      - Monthly trends of total profit and average order value from discounted orders.
+      - Revenue and attachment rate trends month-over-month.
+      - Customer acquisition and revenue from first-time purchases by month.
+      - Product units sold from discounted orders and percentage of discounted units sold compared to total units sold by month.
+
+  * **Result:** 
+    - Provided actionable insights that helped refine discounting strategies for better targeting of high-value customers and improving sales efficiency.
+    - Created performance benchmarks for monthly tracking, helping management monitor progress towards discount-related goals.
+    - Supported the alignment of pricing strategies with business targets, enabling more effective decision-making and resource allocation.
 
 - ##### 6.4 High-Potential Markets
 Emerging Markets: Southeast Asia and Eastern Europe showed strong growth potential with relatively low market penetration.
