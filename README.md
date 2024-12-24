@@ -258,9 +258,26 @@ This project uncovered critical insights into the e-commerce business, highlight
     - Helped identify areas for improvement in logistics and supply chain operations to reduce lead times.
     - Established targets and baselines to monitor progress and drive strategic decisions, ensuring alignment with overall business goals.
 
-- ##### 6.6 Product Performance
-Best-Selling Products: Highlighted top-performing products, enabling inventory prioritization.
-Low-Performing Items: Recommended phasing out underperforming products or repositioning them with promotional strategies.
+- ##### 6.6 Customer Segmentation
+
+  * **Situation:** Analyzed customer growth and revenue patterns from 2011 to 2014 to uncover insights that could drive better customer engagement and retention strategies. The goal was to identify top-performing customers and areas for improvement in customer acquisition and profitability.
+
+  * **Task:** Identify key customer segments based on revenue, profitability, and purchase order frequency to develop targeted strategies for growth. Track customer growth trends and highlight potential opportunities for improvement.
+
+  * **Action:** 
+    - Conducted a thorough analysis of customer performance:
+      - **Top Revenue Customers:** Tom A., Tamara C., and Greg T. were identified as the highest revenue contributors.
+      - **Top Profit Customers:** Bill E., Harry M., and Susan P. were the top profit drivers.
+      - **High Purchase Rate Customers:** Muhammed Y., Steven W., and Bill E. had the highest frequency of purchase orders.
+    - Visualized customer trends:
+      - Monthly breakdown of total customers and revenue, segmented by new and returning customers.
+      - Trend analysis of the percentage of new versus returning customers month by month.
+      - Created a table to show month-over-month customer growth or decrease.
+
+  * **Result:** 
+    - Provided insights that allowed management to target high-value customers and create strategies for customer retention.
+    - Highlighted areas for potential growth by focusing on acquiring customers with high purchase frequencies and profitability.
+    - Enabled the business to set clear customer growth targets and align them with operational tasks, driving overall business success.
 
 
 ### Summary
