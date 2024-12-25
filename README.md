@@ -7,25 +7,24 @@ In the highly competitive e-commerce market, companies must align strategies fro
 Business Intelligence dashboards are essential tools to unify efforts by providing real-time, dynamic KPI tracking and performance insights. These dashboards help identify gaps and opportunities for improvement and growth, as demonstrated in this project.
 
 ## Project Objectives
-	
-- ### 1. Analyze Sales and Profitability
-Provide an overview of sales and profitability across key focus areas to develop strategies that increase revenue.
 
-- ### 2. Optimize Shipping Efficiency
-Reduce shipping costs and delivery lead times by analyzing shipping modes, order priorities, and locations. Recommend tailored shipping strategies for different products.
+- **Align Strategic Goals Across the Organization**  
+  Create a shared understanding of company targets by enabling top management to communicate long-term goals clearly to all departments.
 
-- ### 3. Refine Discount Strategies
-Assess the impact of discounts on sales, profitability, customer acquisition, and product units sold to improve discounting policies.
+- **Enhance Departmental Focus**  
+  Empower teams to align their efforts with strategic objectives, ensuring every department contributes toward achieving organizational goals.
 
-- ### 4. Identify High-Potential Markets
-Highlight markets, regions, and countries with high sales potential and profit margins. Analyze performance trends, monthly sales growth, and sub-category contributions.
+- **Monitor Performance Against Targets**  
+  Provide a dynamic dashboard to track performance metrics, identify gaps, and determine if outcomes are above or below target.
 
-- ### 5. Improve Product Performance
-Identify best-selling products, optimize inventory, and phase out low-performing items. Track monthly growth in units sold to enhance inventory management.
+- **Drive Data-Driven Decision-Making**  
+  Enable teams to analyze root causes and uncover new business opportunities using interactive filters and drill-down capabilities.
 
-- ### 6. Focus on High-Value Customers
-Analyze high-value and new customers, order rates, and annual customer trends based on sales, profit, and order counts. Monitor monthly customer growth percentages to create targeted retention strategies.
+- **Support Proactive Strategy Development**  
+  Facilitate quick action to bridge performance gaps or capitalize on opportunities by providing real-time, actionable insights. 
 
+- **Foster Collaboration Through Transparency**  
+  Encourage cross-departmental collaboration by sharing insights and benchmarks that highlight areas for improvement and success.
 
 ## Dataset Description
 
