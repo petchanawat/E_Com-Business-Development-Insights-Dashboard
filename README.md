@@ -8,22 +8,22 @@ Business Intelligence dashboards are essential tools to unify efforts by providi
 
 ## Project Objectives
 
-- **Align Strategic Goals Across the Organization**  
+- ### Align Strategic Goals Across the Organization
   Create a shared understanding of company targets by enabling top management to communicate long-term goals clearly to all departments.
 
-- **Enhance Departmental Focus**  
+- ### Enhance Departmental Focus  
   Empower teams to align their efforts with strategic objectives, ensuring every department contributes toward achieving organizational goals.
 
-- **Monitor Performance Against Targets**  
+- ### Monitor Performance Against Targets  
   Provide a dynamic dashboard to track performance metrics, identify gaps, and determine if outcomes are above or below target.
 
-- **Drive Data-Driven Decision-Making**  
+- ### Drive Data-Driven Decision-Making 
   Enable teams to analyze root causes and uncover new business opportunities using interactive filters and drill-down capabilities.
 
-- **Support Proactive Strategy Development**  
+- ### Support Proactive Strategy Development 
   Facilitate quick action to bridge performance gaps or capitalize on opportunities by providing real-time, actionable insights. 
 
-- **Foster Collaboration Through Transparency**  
+- ### Foster Collaboration Through Transparency
   Encourage cross-departmental collaboration by sharing insights and benchmarks that highlight areas for improvement and success.
 
 ## Dataset Description
