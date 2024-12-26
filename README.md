@@ -6,25 +6,16 @@ In the highly competitive e-commerce market, companies must align strategies fro
 
 Business Intelligence dashboards are essential tools to unify efforts by providing real-time, dynamic KPI tracking and performance insights. These dashboards help identify gaps and opportunities for improvement and growth, as demonstrated in this project.
 
-## Project Objectives
+## Objectives
 
-- ### Align Strategic Goals Across the Organization
-  Create a shared understanding of company targets by enabling top management to communicate long-term goals clearly to all departments.
+- ### Align Strategy with Operations
+  Ensure all teams understand and work toward shared company goals by connecting strategic plans with daily operations.
 
-- ### Enhance Departmental Focus  
-  Empower teams to align their efforts with strategic objectives, ensuring every department contributes toward achieving organizational goals.
+- ### Track and Improve Performance 
+  Use dynamic dashboards to monitor key metrics, identify performance gaps, and uncover growth opportunities.
 
-- ### Monitor Performance Against Targets  
-  Provide a dynamic dashboard to track performance metrics, identify gaps, and determine if outcomes are above or below target.
-
-- ### Drive Data-Driven Decision-Making 
-  Enable teams to analyze root causes and uncover new business opportunities using interactive filters and drill-down capabilities.
-
-- ### Support Proactive Strategy Development 
-  Facilitate quick action to bridge performance gaps or capitalize on opportunities by providing real-time, actionable insights. 
-
-- ### Foster Collaboration Through Transparency
-  Encourage cross-departmental collaboration by sharing insights and benchmarks that highlight areas for improvement and success.
+- ### Support Data-Driven Decisions  
+  Empower teams with actionable insights to solve problems, optimize operations, and drive business growth effectively.
 
 ## Dataset Description
 
@@ -278,19 +269,16 @@ This project uncovered critical insights into the e-commerce business, highlight
     - Highlighted areas for potential growth by focusing on acquiring customers with high purchase frequencies and profitability.
     - Enabled the business to set clear customer growth targets and align them with operational tasks, driving overall business success.
 
-
 ## Summary
 
-This project aimed to provide business intelligence insights for e-commerce businesses, enabling data-driven decision-making across multiple areas such as sales, shipping efficiency, product performance, and market potential. The dashboard leverages real-time data to identify gaps, opportunities, and trends that can lead to improved profitability, cost optimization, and customer satisfaction.
+This project develops a dynamic business intelligence dashboard tailored for e-commerce operations, aligning strategic goals with operational execution and supporting data-driven decisions.  
 
-By analyzing historical sales data and operational performance, the dashboard helps businesses:
-- Optimize shipping strategies and costs
-- Fine-tune discount policies
-- Focus on high-potential markets and customers
-- Track product performance for better inventory management
-- Set clear sales and profitability targets for sustained growth
+The dashboard uses historical and real-time data to provide insights, allowing businesses to:  
+- Track performance against targets dynamically.  
+- Uncover gaps and opportunities for improvement.  
+- Make informed decisions to achieve long-term objectives.  
 
-The insights derived from the dashboard serve as a guide for top management, helping them align strategic goals with everyday tasks, driving organizational success from the ground up.
+With a focus on fostering collaboration and enabling action, the dashboard serves as a tool for teams and top management to bridge the gap between strategy and execution, driving organizational success.
 
 ## Next Steps
 
